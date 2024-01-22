@@ -6,7 +6,7 @@ import requests
 import random
 import json
 
-PREFIX = '+'
+PREFIX = 'A'
 OPENAI_ENDPOINT = 'https://api.openai.com/v1/chat/completions'
 OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
 MAX_MESSAGE_LENGTH = 1000
